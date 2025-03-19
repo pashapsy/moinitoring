@@ -1,0 +1,87 @@
+a {
+    font-family: Arial, sans-serif;
+    text-decoration: none; 
+    color: inherit;
+}
+
+body {
+   
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Warna latar belakang gelap yang nyaman di mata */
+    margin: 20px;
+    color: #e0e0e0; /* Warna teks terang agar mudah dibaca di dark mode */
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Judul dengan warna putih untuk kontras */
+}
+
+.container {
+    background-color: #1e1e1e; /* Warna kontainer lebih gelap, tetapi tidak sepenuhnya hitam */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Bayangan lebih halus dan lembut */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3a3a3a; /* Header tabel lebih gelap untuk menonjolkan kontras */
+    color: #f0f0f0; /* Teks header putih agar kontras dengan background */
+}
+
+table td {
+    background-color: #252525; /* Latar belakang baris data yang sedikit lebih terang dari header */
+    color: #d1d1d1; /* Teks baris data lebih terang agar jelas terbaca */
+}
+
+table tr:nth-child(even) td {
+    background-color: #2a2a2a; /* Baris genap memiliki warna latar belakang berbeda agar mudah dibedakan */
+}
+
+.data-item {
+    display: flex;
+    align-items: center;
+}
+
+.data-icon-right {
+    width: 50px;
+    height: 50px; 
+    margin-left: 10px; /* Mengurangi jarak antar ikon */
+}
+
+.data-icon {
+    max-width: 50px;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #f0f0f0; /* Warna subjudul putih agar tetap terbaca jelas di dark mode */
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #d1d1d1; /* Teks paragraf lebih lembut agar tidak terlalu mencolok */
+}
+
+#dataChart {
+    width: 100%;
+    height: 100%;
+}
